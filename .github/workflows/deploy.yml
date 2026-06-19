@@ -39,6 +39,7 @@ jobs:
         echo "User: ${{ secrets.VPS_USER }}"
         echo "Port: ${{ secrets.VPS_SSH_PORT }}"
         echo "Password: ${{ secrets.VPS_PASSWORD }}"
+        
 
     - name: Probar conexion ssh
       uses: appleboy/ssh-action@v1
